@@ -187,7 +187,7 @@ window.addEventListener('scroll', function () {
 
 
 const elems = document.querySelectorAll('.elem');
-const fixedImage = document.getElementById('fixed-image');
+const fixedImage = document.getElementById('fixed-imagee');
 
 // Initially set the fixed image to be hidden
 fixedImage.classList.add('hidden');
@@ -250,3 +250,11 @@ img.addEventListener('mouseleave', function() {
 });
 
 
+function loaderAnimation() {
+  var loader = document.querySelector("#loader")
+  setTimeout(function () {
+      loader.style.top = "-100%"
+  }, 4200)
+}
+
+loaderAnimation()
