@@ -1354,7 +1354,7 @@ footer {
 }
 
 #loader h1{
-  font-size: 4vw;
+  font-size: 7vw;
   color: transparent;
   background: linear-gradient(to right,aqua,blue);
   -webkit-background-clip: text;
@@ -1389,7 +1389,7 @@ footer {
 
 @media (max-width:600px) {
   #loader h1{
-      font-size: 9vw;
+      font-size: 12vw;
     
   }
 }
