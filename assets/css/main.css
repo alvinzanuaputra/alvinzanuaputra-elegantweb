@@ -720,7 +720,8 @@ section,
 
 @media (max-width: 576px) {
   .hero-img {
-    width: 65%;
+    margin-top: 10px;
+    width: 90%;
   }
 }
 
